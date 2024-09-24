@@ -29,7 +29,7 @@
                         <img src="./image/coin.png" alt="">
                     </div>
                     <div>
-                        <h2><span id="currentBalance">5500</span>  BDT</h2>
+                        <h2><span id="TotalcurrentBalance">5500</span>  BDT</h2>
                     </div>
                 </div>
             </div>
@@ -46,6 +46,7 @@
     </header>
     <main>
         <section>
+            <!-- 1st -->
             <div class="sm:flex-none lg:flex border-2 max-w-6xl m-auto mt-14">
                 <div class="">
                     <img class="lg:max-w-screen-sm p-5 mr-9" src="./image/noakhali.png" alt="">
@@ -56,7 +57,7 @@
                             <img class="mr-2" src="./image/coin.png" alt="">
                         </span>
                         <samp>
-                            <p> <span id="currentAmount">0 </span>BTD </p>
+                            <p> <span id="currentAmount"> 0 </span> BTD </p>
                         </samp>
                     </div>
                     <div class="p-7">
@@ -68,11 +69,12 @@
                         <span>
                             <input type="text" id="donationInput" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-lg mt-3" />
-                            <button onclick="addDonation()" class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
+                            <button id="DonatBTN" class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
                         </span>
                     </div>
                 </div>
             </div>
+            <!-- 2nd -->
             <div class="sm:flex-none lg:flex border-2 max-w-6xl m-auto mt-14">
                 <div class="">
                     <img class="lg:max-w-screen-sm p-5 mr-9" src="./image/feni.png" alt="">
@@ -83,7 +85,7 @@
                             <img class="mr-2" src="./image/coin.png" alt="">
                         </span>
                         <samp>
-                            <p> 1100 BTD</p>
+                            <p> <span id="currentAmount1"> 0 </span> BTD </p>
                         </samp>
                     </div>
                     <div class="p-7">
@@ -95,13 +97,14 @@
                             towards making a real difference. Please consider donating today to assist those in urgent
                             need.</p>
                         <span>
-                            <input type="text" placeholder="Write Donation Amount"
+                            <input type="text" id="donationInput1" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-lg mt-3" />
-                            <button class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
+                            <button id="DonatBTN1" class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
                         </span>
                     </div>
                 </div>
             </div>
+            <!-- 3rd -->
             <div class="sm:flex-none lg:flex border-2 max-w-6xl m-auto mt-14">
                 <div class="">
                     <img class="lg:max-w-screen-sm p-5 mr-9" src="./image/quota-protest.png" alt="">
@@ -112,7 +115,7 @@
                             <img class="mr-2" src="./image/coin.png" alt="">
                         </span>
                         <samp>
-                            <p> 1100 BTD</p>
+                            <p> <span id="currentAmount2"> 0 </span> BTD </p>
                         </samp>
                     </div>
                     <div class="p-7">
@@ -125,9 +128,9 @@
                             Please consider making a donation to support these brave individuals in their time of need.
                         </p>
                         <span>
-                            <input type="text" placeholder="Write Donation Amount"
+                            <input type="text" id="donationInput2" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-lg mt-3" />
-                            <button class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
+                            <button id="DonatBTN2" class="btn btn-active bg-[#B4F461] w-full max-w-lg mt-3">Donate Now</button>
                         </span>
                     </div>
                 </div>
@@ -135,7 +138,8 @@
         </section>
         <script src="js/laibary.js"></script>
         <script src="js/script.js"></script>
-
+        <script src="js/other.js"></script>
+      
     </main>
 
 </body>
