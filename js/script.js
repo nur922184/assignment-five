@@ -13,8 +13,8 @@ document.getElementById('DonatBTN')
       // Check if the user has enough balance
       if (TotaltextValue >= currentTextValue) {
         const discountBalance = TotaltextValue - inputValue;
-        alert('Your donation has been successful.');
         document.getElementById('TotalcurrentBalance').innerText = discountBalance;
+        alert('Your donation has been successful.');
         const p = document.createElement('p')
         addDonationToHistory(inputValue, 'famine-2024 at Noakhali, Bangladesh');
         document.getElementById('donationInput').value = '';
